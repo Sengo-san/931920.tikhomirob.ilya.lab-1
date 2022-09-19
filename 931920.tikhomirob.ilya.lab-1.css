@@ -1,0 +1,91 @@
+* {
+    color: white;
+    margin: 0ch;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.header {
+    background-color: green;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    width: 100%;
+    font-size: 18px;
+    top: 0%;
+    padding: 3mm;
+    height: 10%;
+}
+
+.footer {
+    background-color: green;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    font-size: 18px;
+    padding: 3mm;
+}
+
+.content {
+    background-color: blue;
+    width: 30%;
+    padding: 1cm;
+    padding-top: 5mm;
+    position:sticky;
+    left: 35%;
+}
+
+p {
+    font-size: 8px;
+    margin-bottom: 5mm;
+}
+
+.myrect {
+    width: 100px;
+    height: 100px;
+    border: 6px solid white;
+    border-radius: 20% 0px 20% 0px;
+    float: left;
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+a {
+    color: red;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    margin-bottom: 5mm;
+    padding-bottom: 5mm;
+}
+
+ul {
+
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 0px;
+    margin-bottom: 5mm;
+    margin-top: 5mm;
+}
+
+li {
+
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 1cm;
+    margin-bottom: 2mm;
+}
+
+table {
+    width: 120px;
+    height: 80px;
+    margin-bottom: 2mm;
+}
+
+td {
+    padding: 4px;
+    padding-bottom: 1px;
+    text-align: center;
+    vertical-align: bottom;
+}
